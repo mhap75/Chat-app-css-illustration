@@ -1,0 +1,23 @@
+@media (max-width: 900px) {
+    .content {
+        flex-direction: column;
+        gap: 4rem;
+        margin-block: 3rem;
+    }
+    .mobile {
+        margin-left: 0 !important;
+    }
+
+    .text {
+        max-width: 360px;
+        text-align: center;
+    }
+    .background-solid {
+        display: none;
+    }
+
+    .background-gradient {
+        left: -50%;
+        width: 100%;
+    }
+}
